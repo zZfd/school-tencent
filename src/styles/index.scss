@@ -1,0 +1,134 @@
+@import './mixin.scss';
+@import './transition.scss';
+
+
+// /*320~360大小的屏幕时 */
+// @media screen and (min-width: 320px) {
+//   html {
+//     font-size: 14px !important;
+//   }
+// }
+
+// /*360~400大小的屏幕时 */
+// @media screen and (min-width: 360px) {
+//   html {
+//     font-size: 16px !important;
+//   }
+// }
+
+// /*400~440大小的屏幕时 */
+// @media screen and (min-width: 400px) {
+//   html {
+//     font-size: 18px !important;
+//   }
+// }
+
+// /*440~480大小的屏幕时 */
+// @media screen and (min-width: 440px) {
+//   html {
+//     font-size: 20px !important;
+//   }
+// }
+
+// /*440~480大小的屏幕时 */
+// @media screen and (min-width: 480px) {
+//   html {
+//     font-size: 22px !important;
+//   }
+// }
+
+// /*480~520大小的屏幕时 */
+// @media screen and (min-width: 520px) {
+//   html {
+//     font-size: 24px !important;
+//   }
+// }
+
+// /*520~540大小的屏幕时*/
+// @media screen and (min-width: 540px) {
+//   html {
+//     font-size: 25px !important;
+//   }
+// }
+
+// /*520~640大小的屏幕*/
+// @media screen and (min-width: 640px) {
+//   html {
+//     font-size: 28px !important;
+//   }
+// }
+
+// @media screen and (min-width: 740px) {
+//   html {
+//     font-size: 30px !important;
+//   }
+// }
+
+
+body {
+  background-color: #F7F8FA;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei,Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,  Arial, sans-serif;
+}
+
+
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+#app {
+  height: 100%;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+input {
+  color: #333;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+
